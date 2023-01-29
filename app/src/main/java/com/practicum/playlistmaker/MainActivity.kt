@@ -23,15 +23,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
         button_search.setOnClickListener(buttonClickListener)
-
-        // Нажатие кнопки <Поиск> с помощью лямбда-выражения
-        // val button_search = findViewById<Button>(R.id.button_search)
-        // button_search.setOnClickListener {
-        //      val displayIntent = Intent(this, SearchActivity::class.java)
-        //      startActivity(displayIntent)
-        //    // Toast.makeText(this@MainActivity, "Нажали на кнопку <Поиск>", Toast.LENGTH_SHORT).show()
-        // }
-
+        
         // Нажатие кнопки <Медиатека> с помощью лямбда-выражения
         val button_media = findViewById<Button>(R.id.button_media)
         button_media.setOnClickListener {
